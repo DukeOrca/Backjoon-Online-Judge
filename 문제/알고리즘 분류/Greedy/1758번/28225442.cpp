@@ -17,12 +17,12 @@ int main() {
 	sort(A, A + N, greater<int>());
 
 	for (int i(0); i < N; ++i) {
-		int a(A[i] - i);
+		int n(A[i] - i);
 
-		if (a < 1)
+		if (n < 1)
 			break;
 		else
-			max += a;
+			max += n;
 	}
 
 	printf("%lld \n", max);
