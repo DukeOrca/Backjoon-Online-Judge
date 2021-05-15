@@ -21,4 +21,6 @@ int main() {
 
 		printf("%d. %d\n", T++, n + m / 2);
 	}
+	
+	return 0;
 }
